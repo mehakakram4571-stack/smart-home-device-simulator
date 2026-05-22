@@ -1,0 +1,46 @@
+smart_home_simulator/
+│
+├── include/                           # All Header Files (.h)
+│   ├── core/
+│   │   ├── Schedulable.h ✅
+│   │   └── SmartDevice.h ✅
+│   │
+│   ├── devices/
+│   │   ├── SmartLight.h
+│   │   ├── Thermostat.h
+│   │   ├── SecurityCamera.h
+│   │   ├── SmartAppliance.h
+│   │   ├── SmartLock.h
+│   │   └── SmartSpeaker.h
+│   │
+│   └── management/
+│       ├── Room.h
+│       ├── Automation.h
+│       ├── EnergyLog.h
+│       ├── SmartHome.h
+│       └── UserAuthentication.h
+│
+├── src/                               # All Implementation Files (.cpp)
+│   ├── core/
+│   │   └── SmartDevice.cpp ✅
+│   │
+│   ├── devices/
+│   │   ├── SmartLight.cpp
+│   │   ├── Thermostat.cpp
+│   │   ├── SecurityCamera.cpp
+│   │   ├── SmartAppliance.cpp
+│   │   ├── SmartLock.cpp
+│   │   └── SmartSpeaker.cpp
+│   │
+│   └── management/
+│       ├── Room.cpp
+│       ├── Automation.cpp
+│       ├── EnergyLog.cpp
+│       ├── SmartHome.cpp
+│       └── UserAuthentication.cpp
+│
+├── main.cpp                           # Application Entry Point
+├── CMakeLists.txt                     # Build configuration (Recommended)
+└── README.md                          # Documentation & Setup instructions
+
+ye folder structure hoga iss project ka
